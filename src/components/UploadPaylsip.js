@@ -87,7 +87,7 @@ function FileUpload() {
                     'Content-Type': 'multipart/form-data'
                 }
             });
-            alert('Upload successful!');
+            alert('Upload successful!: ', response.data);
         } catch (error) {
             console.error('Error uploading file:', error);
             alert('Upload failed!');
