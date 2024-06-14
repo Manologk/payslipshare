@@ -4,7 +4,6 @@ import { createTheme, ThemeProvider, CssBaseline } from '@mui/material';
 import UploadPayslip from './components/UploadPaylsip'
 import AdminDashboard from './components/AdminDashboard';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Login from './components/Login';
 
 

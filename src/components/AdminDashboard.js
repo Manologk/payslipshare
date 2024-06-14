@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Box, Container, Typography, Table, TableBody, TableCell, TableHead, TableRow, Paper, Link, CssBaseline } from '@mui/material';
-import { styled } from '@mui/system';
+import { Container, Typography, Table, TableBody, TableCell, TableHead, TableRow, Paper, Link } from '@mui/material';
 
-const DashboardBox = styled(Paper)(({ theme }) => ({
-  padding: theme.spacing(3),
-  marginTop: theme.spacing(5),
-  background: 'linear-gradient(135deg, #ff5722 30%, #ff8a65 90%)',
-  color: theme.palette.primary.contrastText,
-}));
+
 
 const AdminDashboard = () => {
   const [payslips, setPayslips] = useState([]);
