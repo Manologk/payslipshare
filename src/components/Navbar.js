@@ -9,12 +9,19 @@ const Navbar = () => {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Pay Slip App
         </Typography>
+
         <Button color="inherit" component={Link} to="/">
           Upload
         </Button>
+
+        <Button color="inherit" component={Link} to="/">
+          Login
+        </Button>
+
         <Button color="inherit" component={Link} to="/admin">
           Admin
         </Button>
+
       </Toolbar>
     </AppBar>
   );
