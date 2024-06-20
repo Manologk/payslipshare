@@ -82,7 +82,7 @@ function FileUpload() {
         }
 
         try {
-            const response = await axios.post('http://manolo029.pythonanywhere.com/api/payslip/upload/', formData, {
+            const response = await axios.post('https://manolo029.pythonanywhere.com/api/payslip/upload/', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
