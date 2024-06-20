@@ -11,7 +11,7 @@ const AdminDashboard = () => {
     const fetchPayslips = async () => {
       try {
         const token = localStorage.getItem('access_token');
-        const response = await axios.get('https://manolo029.pythonanywhere.com/api/payslip/list/', {
+        const response = await axios.get('https://ndineemma.pythonanywhere.com/api/payslip/list/', {
           headers: {
             'Authorization': `Bearer ${token}`,
           },

@@ -19,7 +19,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://manolo029.pythonanywhere.com/api/payslip/api/token/', {
+      const response = await axios.post('https://ndineemma.pythonanywhere.com/api/payslip/api/token/', {
         username,
         password,
       });
